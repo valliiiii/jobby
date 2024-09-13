@@ -1,0 +1,117 @@
+.products-list{
+    list-style-type: none;
+    margin-bottom: 48px;
+    width: 500px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-right: 20px;
+    
+}
+.product-sections {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    max-width: 1110px;
+  }
+  .bottom-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+ /* Pagination container fixed at the bottom */
+.pagination-container {
+    position: fixed;
+    bottom: 60px; /* Adjust the value to your design */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .pagination-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pagination-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .pagination-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Pagination Container */
+.pagination-container {
+    position: fixed;
+    bottom: 0; /* Stick the pagination to the bottom */
+    left: 0;
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center; /* Center the pagination buttons */
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  /* Pagination Container */
+.pagination-container {
+    position: fixed;
+    bottom: 0; /* Stick the pagination to the bottom */
+    left: 0;
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center; /* Center the pagination buttons */
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  /* Pagination Button */
+  .pagination-button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination-button.active {
+    background-color: #28a745; /* Active button styling */
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+ .active-nav-button{
+    background-color: #007bff;
+    color: black;
+ } 
+  
+  
